@@ -1,0 +1,517 @@
+body{
+    margin:0 auto;
+}
+/**cei est la mise en forme de noter header*/
+header{
+
+    width:100%;
+    height:300px;
+}
+#titre {
+    
+    width:100%;
+    height:65px;
+    line-height:65px;
+}
+#titre h1{
+    text-transform:uppercase;
+    font-size:12pt;
+    margin-left:20px;
+    color:#e3a07f;
+}
+nav{
+    background:#898d8e;
+    display:inline-block;
+    width:100%;
+    height:40px;
+    line-height:40px;
+}
+nav ul{
+    margin:0px;
+    padding:0px;
+    width:100%;
+    height:40px;
+}
+nav li{
+    display:inline-block;
+    width:10%;
+    text-align:center;
+    text-transform:uppercase;
+    height:80px;    
+}
+nav a{
+    color:#e8e6e6;
+    text-decoration:none;
+    display:block
+}
+nav a:hover{
+    background:#70858d;
+    height:40px;
+}
+.hello{
+    background:#b7bcbe;
+    padding-top:50px;
+    text-align:right;
+    display:inline-block;
+    width:100%;
+}
+.hello h2{
+    font-size:36.54pt;
+    padding-right:20px;
+    line-height:0px;
+    color:white;
+}
+.hello h3{
+    font-size:23.04pt;
+    padding-right:20px;
+    line-height:0px;
+    color:#d7794a;
+}
+/**ici ce termine la mise en forme du header**/
+
+
+
+/**ci dessous sera la mise en forme du corps**/
+#corps{
+    margin:auto;
+    width:80%;
+}
+.intro h2{
+    text-align:center;
+    text-transform:uppercase;
+    text-decoration:underline;
+    font-size:29.33pt;
+    color:#a95e39;
+
+}
+.intro p{
+    text-align:center;
+}
+#team{
+    width:100%;
+    
+}
+
+#partenaire1{
+    width:30%;
+    display:inline-block;
+    margin-left:2%;
+    text-align:justify;
+}
+#partenaire2{
+    width:30%;
+    display:inline-block;
+    margin-left:3%;
+    text-align:justify;
+}
+#partenaire3{
+    width:30%;
+    display:inline-block;
+    margin-left:3%;
+    text-align:justify;
+}
+#partenaire1 img{
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+    
+}
+
+#partenaire2 img{
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+}
+#partenaire3 img{
+     width:90%;
+    margin-left:5%;
+    margin-right:5%;
+}
+#partenaire1 h3{
+    text-align:center;
+    text-transform:uppercase;
+    font-size:14.67pt;
+}
+#partenaire2 h3{
+    text-align:center;
+    text-transform:uppercase;
+    font-size:14.67pt;
+}
+#partenaire3 h3{
+    text-align:center;
+    text-transform:uppercase;
+    font-size:14.67pt;
+}
+
+#dashboard{
+    background:#1f3138;
+    width:120%;
+    height:230px;
+    margin-left:-10%;
+    line-height:px;
+}
+#happy{
+    display:inline-block;
+    width:30%;
+    margin-left:5%;
+}
+#full{
+    display:inline-block;
+    width:30%;
+
+}
+#teammates{
+    display:inline-block;
+    width:30%;
+}
+
+
+#happy h3{
+    font-size:36.83pt;
+    margin-bottom:0px;
+    text-align:center;
+    color:#88553b;
+}
+#happy p{
+    text-align:center;
+    margin-top:0px;
+    font-size:14.76pt;
+    color:#ffffff;
+}
+#full h3{
+    font-size:36.83pt;
+    margin-bottom:0px;
+    text-align:center;
+    color:#88553b;
+}
+#full p{
+    text-align:center;
+    margin-top:0px;
+    font-size:14.76pt;
+    color:#ffffff;
+}
+#teammates h3{
+    font-size:36.83pt;
+    margin-bottom:0px;
+    text-align:center;
+    color:#88553b;
+}
+#teammates p{
+    text-align:center;
+    margin-top:0px;
+    font-size:14.76pt;
+    color:#ffffff;
+}
+
+
+/**ci dessous la mise en page du contact**/
+#contact{
+    margin-top:300px;
+    background:#2a3e47;
+    width:100%;
+    height:500px;
+    padding:5%;
+    margin-left:-5%;
+}
+#contact h2{
+    text-transform:uppercase;
+    text-align:center;
+    font-size:27pt;
+    color:whitesmoke
+}
+#contact p{
+    text-align:center;
+    font-size:14pt;
+    color: whitesmoke;
+}
+#ligne1 {
+    margin-left:25%;
+    margin-right:25%;
+
+
+}
+#ligne1 input{
+    width:44%;
+    height:25px;
+    margin-bottom:20px;
+    background:none;
+    border-top:none;
+     border-left:none;
+     border-right:none;
+}
+#ligne2 {
+    margin-left:25%;
+    margin-right:25%;
+}
+#ligne2 input{
+     width:44%;
+     height:25px;
+     margin-bottom:20px;
+     background:none;
+     border-top:none;
+     border-left:none;
+     border-right:none;
+}
+#ligne3 {
+    margin-left:25%;
+    margin-right:25%;
+    
+}
+#ligne3 input{
+    width:90%;
+    height:25px;
+    background:none;
+    color:white;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    margin-bottom:20px;
+}
+#ligne4 {
+    margin-left:25%;
+    margin-right:25%;
+    
+}
+#ligne4 textarea{
+    width:90%;
+    height:100px;
+    background:none;
+    color:white;
+    border-top:none;
+     border-left:none;
+     border-right:none;
+}
+#bouton{
+    text-align:right;
+    margin-right:30%;
+}
+#bouton button{
+    background:#89553c;
+    margin-top:20px;
+    width:100px;
+    height:40px;
+    border-radius:10%;
+    color:white;
+
+}
+/** section sur apropos de nous*/
+#about{
+    margin-top:100px;
+    vertical-align:top;
+    height:300px;
+}
+#image{
+    width:49%;
+    display:inline-block;
+    vertical-align:top;
+
+}
+
+#image img{
+    width:100%;
+    height:300px;
+}
+#us{
+    display:inline-block;
+    width:50%;
+    height:300px;
+    border-top:2px solid;
+    border-right:2px solid;
+    border-bottom:2px solid;
+}
+#aboutus h2{
+    text-transform:uppercase;
+    text-align:center;
+    text-decoration:underline;
+}
+#aboutus p{
+    text-align:center
+}
+#valuer1{
+    display:inline-block;
+    width:32%;
+}
+#valuer2{
+    display:inline-block;
+    width:32%;
+}
+#valuer3{
+    display:inline-block;
+    width:32%;
+}
+#valuer1 img{
+    width:80px;
+    height:100px;
+    border-radius:50%;
+    margin-left:10%;
+}
+#valuer2 img{
+    width:80px;
+    height:100px;
+    border-radius:50%;
+    margin-left:10%;
+}
+#valuer3 img{
+    width:80px;
+    height:100px;
+    border-radius:50%;
+    margin-left:10%;
+}
+#valuer1{
+    text-align:center;
+}
+#valuer2{
+    text-align:center;
+}
+#valuer3{
+    text-align:center;
+}
+/**ceci sera la mise en page**/
+#ourgalery{
+    margin-top:200px;
+}
+#our h2{
+    text-align:center;
+    text-transform:uppercase;
+    text-decoration:underline;
+    font-size:29.33pt;
+    color:#a95e39;
+}
+#our p{
+    text-align:center;
+}
+#gallery img{
+    width:19%;
+    height:300px;
+    border:2px solid #a95e39;
+
+}
+.menu{
+    background :#1b2c33;
+    color:whitesmoke;
+    width:100%;
+    height:150px;
+    font-size:11pt;
+
+    
+}
+#footer1{
+    display:inline-block;
+
+    vertical-align:top;
+    width:17%;
+    margin-left:3%;
+}
+#footer2{
+    display:inline-block;
+    
+    vertical-align:top;
+    width:17%;
+    margin-left:2%;
+}
+#footer3{
+    display:inline-block;
+    
+    vertical-align:top;
+    width:17%;
+    margin-left:2%;
+}
+#footer4{
+    display:inline-block;
+    
+    vertical-align:top;
+    width:17%;
+    margin-left:2%;
+}
+#footer5{
+    display:inline-block;
+    
+    vertical-align:top;
+    width:17%;
+    margin-left:2%;
+}
+#footer1 ul{
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+}
+#footer2 ul{
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+}
+#footer3 ul{
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+}
+#footer1 ul{
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+}
+#footer4 ul{
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+}
+#footer5 ul{
+   
+    margin:50px 0px;
+    padding:0pxc;
+    list-style-type:none;
+}
+#footer1 h3{
+    text-transform:uppercase;
+
+
+}
+#footer2 h3{
+    text-transform:uppercase;
+    
+}
+#footer3 h3{
+    text-transform:uppercase;
+    
+}
+#footer3 h3{
+    text-transform:uppercase;
+    
+}
+#footer4 h3{
+    text-transform:uppercase;
+}
+
+#cpr{
+    background:rgba(0, 0, 0, 0.7);
+    width:100%;
+    height:30px;
+    color:white;
+}
+#copyrate{
+    margin-left:5%;
+    display:inline-block;
+    height:15px;
+    line-height:1px;
+    width:60%;
+}
+#sociallink{
+    display:inline-block;
+    width:30%;
+    text-align:right
+}
+#sociallink ul{
+    display:inline-block;
+    margin:0px;
+    padding:0px;
+}
+#sociallink li{
+    display:inline-block;
+    margin-left:20px;
+}
+#sociallink img{
+    width:20px;
+    height:20px;
+    
+}
+
